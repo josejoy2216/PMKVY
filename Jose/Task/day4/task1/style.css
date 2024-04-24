@@ -1,0 +1,43 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.form{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: 1px solid grey;
+    background-color: #888787d5;
+    border-radius: 20px;
+}
+
+.dog{
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+}
+
+.title{
+    margin-top: -10px;
+    color: beige;
+}
+.school{
+    margin-top: -10px;
+    color: rgb(43, 41, 39);
+    margin-bottom: 20px;
+}
+
+
+.button{
+    height: 50px;
+    width: 260px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
