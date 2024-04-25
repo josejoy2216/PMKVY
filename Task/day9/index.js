@@ -47,6 +47,8 @@ let library = {
         });
     },
 
+    
+
 };
 
 console.log(library);
@@ -70,8 +72,6 @@ console.log(findAuthor);
 // Check out a book
 library.checkOutBook("harry potter");
 console.log(library.books);
-
-
 
 // return a book
 library.returnBook("harry potter");
