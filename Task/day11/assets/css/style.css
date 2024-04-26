@@ -4,9 +4,10 @@
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    margin-bottom: 20px;
     border: 1px solid grey;
     background-color: #ecececd5;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .card{
