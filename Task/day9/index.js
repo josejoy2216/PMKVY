@@ -46,9 +46,6 @@ let library = {
             }
         });
     },
-
-        
-
 };
 
 console.log(library);

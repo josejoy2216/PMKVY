@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Todo List </title>
+    <title>Book Store </title>
 
 
 
@@ -15,22 +15,24 @@
     <div class="container ">
         <div class="mx-auto mt-5 ">
             <div class="col-md-10 form mx-auto shadow">
-                <h3 class="mt-3">Todo List</h3>
+                <h3 class="mt-3">Book Store</h3>
                 
                 <div style="justify-content: center; align-items: center;">
-                    <input type="text" id="text"> 
-                    <button class="btn btn-success" id="submit" > Search  </button>
+                    <input type="text" id="searchtxt" placeholder="Enter title"> 
+                    <button class="btn btn-success" id="search" > Search  </button>
                 </div>
 
                 <div class="row ">
                     <div class="col-md-6 left m-3 p-3 card">                        
                         <div class="form-group">
                             
-                            <input type="text" id="title" class="form-control mb-2" placeholder="Enter title">
-                            <input type="text" id="title" class="form-control mb-2" placeholder="Enter title">
+                            <input id="title" type="text"  class="form-control mb-2" placeholder="Enter title">
+                            <input  id="author" type="text" class="form-control mb-2" placeholder="Enter Author">
                             <textarea id="description" class="form-control mb-2" placeholder="Enter description"></textarea>
-                            <button id="addBtn" class="btn btn-primary btn-block">Add Task</button>
-                            <button id="clrBtn" class="btn btn-primary btn-block">Clear Task</button>
+                            <button id="addBtn" class="btn btn-primary btn-block">Add Book</button>
+                            <button id="clrBtn" class="btn btn-primary btn-block">Clear Book</button>
+                            <button id="edtBtn" class="btn btn-primary btn-block">Edit Book</button>
+                            <button id="deleteBtn" class="btn btn-primary btn-block">Remove Book</button>
                           </div>
                           <div id="cardsContainer" class="mt-4"></div>
                     </div>
@@ -40,39 +42,19 @@
 
                 </div>
 
-                <div class="row ">
-                    <div class="col-md-4 left m-3 p-3 card1">                        
+                <!-- <div class="row ">
+                    <div class="col-md-4 left m-3 p-3 cardbook">                        
                         <div class="form-group">
                             
                             <input type="text" id="title" class="form-control mb-2" placeholder="Enter title">
+                            <input type="text" id="title" class="form-control mb-2" placeholder="Enter Author">
                             <textarea id="description" class="form-control mb-2" placeholder="Enter description"></textarea>
-                            <button id="addBtn" class="btn btn-primary btn-block">Add Task</button>
-                            <button id="clrBtn" class="btn btn-primary btn-block">Clear Task</button>
+                            <button id="edtBtn" class="btn btn-primary btn-block">Edit book</button>
+                            <button id="deleteBtn" class="btn btn-primary btn-block">Remove book</button>
                           </div>
                           <div id="cardsContainer" class="mt-4"></div>
                     </div>
-
-                    <div class="col-md-4 left m-3 p-3 card">                        
-                        <div class="form-group">
-                            <input type="text" id="dtitle" class="form-control mb-2" placeholder="Enter title">
-                            <textarea id="ddesp" class="form-control mb-2" placeholder="Enter description"></textarea>
-                            <button id="edtBtn" class="btn btn-primary btn-block">Edit Task</button>
-                            <button id="deleteBtn" class="btn btn-primary btn-block">Remove Task</button>
-                          </div>
-                          <div id="cardsContainer" class="mt-4"></div>
-                    </div>
-
-                    <div class="col-md-4 left m-3 p-3 card">                        
-                        <div class="form-group">
-                            <input  id="dtitle1" type="text1" class="form-control mb-2" placeholder="Enter title">
-                            <textarea id="ddesp1" class="form-control mb-2" placeholder="Enter description"></textarea>
-                            <button id="edtBtn1" class="btn btn-primary btn-block">Edit Task</button>
-                            <button id="deleteBtn1" class="btn btn-primary btn-block">Remove Task</button>
-                          </div>
-                          <div id="cardsContainer" class="mt-4"></div>
-                    </div>
-
-                </div>
+                </div> -->
 
 
 
