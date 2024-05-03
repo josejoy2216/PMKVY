@@ -1,10 +1,10 @@
 #body{
-    background-color: #4A5C6A;
+    background-color: #253745;
 }
 
 /* Add a black background color to the top navigation */
   .topnav {
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 2px;
     padding: 1px;
     background-color: #4A5C6A;
@@ -18,7 +18,7 @@
     float: right;
     color: #f2f2f2;
     text-align: right;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
     font-size: 16px;
   }
@@ -27,7 +27,7 @@
   .topnav a:hover {
     margin: 2px;
     padding: 1px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #9BABAB;
     color: black;
   }
@@ -36,7 +36,7 @@
   .topnav a.active {
     margin: 2px;
     padding: 1px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #9BABAB;
     color: #CCD0CF;
   }
@@ -76,9 +76,9 @@
 
   .btn{
     height: 40px;
-    background-color: #253745;
+    background-color: #11212D;
+    border-color: #11212D;
     border: none;
-    color: white;
     padding: 12px 12px;
     text-align: center;
     text-decoration: none;
@@ -88,9 +88,9 @@
     cursor: pointer;
   }
 
-    .btn:hover {
-    background-color: #ddd;
-    color: black;
+  .btn:hover {
+    background-color: #06141B;
+    border-color: #06141B;
   }
   
   .para{
@@ -140,8 +140,35 @@
   } */
 
 
-
-
+  footer {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #253745;
+    color: #CCD0CF;
+  }
+  
+  .btn-primary {
+    background-color: #11212D;
+    border-color: #11212D;
+  }
+  
+  .btn-primary:hover {
+    background-color: #06141B;
+    border-color: #06141B;
+  }
+  
+  .footer-link {
+    color: #9BA8AB;
+  }
+  
+  .form-control {
+    border-color: #4A56A4;
+  }
+  
+  .form-control:focus {
+    border-color: #11212D;
+  }
+  
 
 
 
